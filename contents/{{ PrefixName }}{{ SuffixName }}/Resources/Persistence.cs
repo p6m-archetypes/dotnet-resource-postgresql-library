@@ -2,11 +2,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace {{ PrefixName }}{{ SuffixName }}.Resources;
 
-public class AppDbContext : DbContext
+public partial class AppDbContext : DbContext
 {
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-    // TODO: Add DbSets here
+    // Consuming archetypes add entities via `public partial class AppDbContext` (DbSets, OnModelCreating).
     // public DbSet<YourEntity> YourEntities => Set<YourEntity>();
 }
 
