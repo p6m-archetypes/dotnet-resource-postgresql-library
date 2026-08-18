@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace {{ PrefixName }}{{ SuffixName }}.Resources;
+namespace {{ ProjectName }}.Resources;
 
 public partial class AppDbContext : DbContext
 {
