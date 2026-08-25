@@ -1,0 +1,14 @@
+---
+description: ".NET PostgreSQL Persistence — EF Core + Npgsql persistence module for ASP.NET Core services"
+summary: >
+  Generates a Resources/Persistence.cs with AppDbContext and PersistenceExtensions
+  using EF Core with the Npgsql provider. Consumed as a library by .NET service archetypes.
+authors: ["Jimmie Fulton <jimmie@ybor.ai>"]
+tags: ["library", "dotnet", "persistence", "postgresql", "efcore", "npgsql"]
+
+requires:
+  archetect: "3.0.0"
+
+templating:
+  trim_blocks: true
+  lstrip_blocks: true
